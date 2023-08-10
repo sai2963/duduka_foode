@@ -1,0 +1,88 @@
+html {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Mono", monospace;
+}
+body{
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  background-color: rgb(44, 38, 38);
+}
+a{
+  text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(29, 26, 24);
+    flex-direction: row;
+   
+    padding: 0 20px;
+}
+header a{
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(238, 164, 80);
+  text-transform: uppercase;
+}
+header ul{
+  list-style: none;
+  display: flex;
+  
+}
+header li{
+  margin: 0 16px;
+}
+header nav a{
+  color: rgb(185, 131, 31);
+  font-size: 20px;
+  text-transform: none;
+  font-weight: 100px;
+}
+header nav a:hover{
+  color: rgb(224, 163, 44);
+}  
+main h1{
+  text-align: center;
+  color: rgb(238,164 ,88  );
+  font-size: 48px;
+
+}
+section{
+  width: 80%;
+  margin: 50px auto;
+}
+section ul{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+}
+section li{
+  background-color: rgb(228, 206, 188);
+  border-radius: 6px;
+  overflow: hidden;
+}
+section img{
+  height: 240px;
+  width: 100%;
+  object-fit: cover;  
+}
+section div{
+  padding: 16px;
+  text-align: center;
+}
+section a{
+  background-color: rgb(228, 157, 44);
+  color: white;
+  border-radius: 4px;
+  padding: 10px 24px;
+
+}
+section a:hover{
+  background-color: rgb(221, 134, 34);
+}
